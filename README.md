@@ -50,4 +50,5 @@ To add the VPN's network config to your prompt you will need to:
     source ~/.zshrc
     ```
 3. Enjoy!
+
     ![](prompt.png)
