@@ -3,7 +3,7 @@ Guide to add the VPN's network config in the prompt
 ![](prompt.png)
 
 ## Installation
-The prompt works for both ZSH "vanilla" and Oh My Zsh,on the other hand the configuration is not the same.
+The prompt works for both ZSH "vanilla" and Oh My Zsh, on the other hand the configuration file is not the same.
 
 ### Oh My Zsh
 In Oh My Zsh, it is fairly simple to add the network prompt by editing your current theme file.
@@ -13,7 +13,7 @@ First, we need to find what's your current theme:
 cat ~/.zshrc | grep -E 'ZSH_THEME=".*?"'
 ```
 
-Then we need to edit it to add our custom prompt code:
+Then, we need to edit it to add our custom prompt code:
 ```Bash
 # Please replace [THEME_NAME] by your theme's name
 code ~/.oh-my-zsh/themes/[THEME_NAME].zsh-theme
@@ -49,5 +49,5 @@ To add the VPN's network config to your prompt you will need to:
     ```
     source ~/.zshrc
     ```
-3. Enjoy !
+3. Enjoy!
     ![](prompt.png)
